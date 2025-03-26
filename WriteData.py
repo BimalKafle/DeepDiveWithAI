@@ -13,7 +13,7 @@ x=torch.tensor(inputs.to_numpy(dtype=float))
 
 
 # Convert the encoded targets to a torch tensor
-y = torch.tensor(targets_encoded)
+y = torch.tensor(x)
 
 print(x)
 print(y)
